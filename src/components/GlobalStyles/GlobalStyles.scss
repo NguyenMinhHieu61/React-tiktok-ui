@@ -2,9 +2,14 @@
 @import url('https://fonts.googleapis.com/css2?family=family=Roboto:ital,wght@0,500;1,400&display=swap');
 
 :root {
+    // Default Layout
+    --default-layout-header-height: 60px;
+    --default-layout-width-content: 1150px;
 }
 
 * {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
