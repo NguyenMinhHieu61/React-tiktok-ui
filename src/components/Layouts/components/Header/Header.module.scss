@@ -17,9 +17,6 @@
     width: var(--default-layout-width-content);
 }
 
-.logo {
-}
-
 .search {
     position: relative;
     width: 500px;
@@ -62,6 +59,18 @@
     &:focus-within {
         border-color: #d6d6d9;
     }
+}
+
+.search-title {
+    padding: 5px 12px;
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: rgba(22, 24, 35, 0.5);
+}
+
+.search,
+.search-result {
+    width: 316px;
 }
 
 .clear,
