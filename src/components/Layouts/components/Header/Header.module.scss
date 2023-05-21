@@ -27,7 +27,6 @@
     border-radius: var(--search-border-radius);
     border: 1.5px solid transparent;
 
-
     input {
         flex: 1;
         color: #161823;
@@ -95,3 +94,11 @@
         background: rgba(22, 24, 35, 0.06);
     }
 }
+
+.more-button {
+    font-size: 2rem;
+    margin-left: 28px;
+    padding: 4px 8px;
+    background-color: transparent;
+}
+
